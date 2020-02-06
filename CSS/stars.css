@@ -1,0 +1,136 @@
+@keyframes moveInTop {
+    0% {
+        opacity: 5;
+        transform: translateY(20rem);
+    }
+    100% {
+        opacity: 5;
+        transform: translateY(0);
+    }
+}
+#moon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -20px;
+    animation: moveInTop 2s ease-out;
+}
+#star1{
+    
+    margin-left: 500px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star2{
+    margin-top: 300px;
+    margin-left: 350px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star3{
+    margin-top: 150px;
+    margin-left: 420px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star4{
+    margin-top: 40px;
+    margin-right: 500px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star5{
+    margin-top: 20px;
+    margin-left: 250px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star6{ 
+    margin-top: 90px;
+    margin-left: -450px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star7{
+    margin-top: -50px;
+    margin-left: -250px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star8{
+    margin-top: 15px;
+    margin-left: -150px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star9{
+    margin-top: 180px;
+    margin-left: -60px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star10{
+    margin-top: 30px;
+    margin-right: 500px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star11{
+    margin-top: -250px;
+    margin-left: -120px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star12{
+    margin-top: -200px;
+    margin-left: -250px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star13{
+    margin-top: -20px;
+    margin-left: -280px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+
+#star14{
+    margin-top: 10px;
+    margin-left: 400px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star15{
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star16{ 
+    margin-top: -30px;
+    margin-left: 130px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}
+#star17{
+    margin-top: -50px;
+    margin-left: 250px;
+    position: absolute;
+    width: 20px;
+    height: 20px ;
+}

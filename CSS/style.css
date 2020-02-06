@@ -1,0 +1,180 @@
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Light.ttf);
+    font-family: "merriweather";
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: "Monserratt";
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "sacramento"; 
+}
+
+
+body{
+    margin: 0;
+    color: #7BD5F5;
+    text-align: center;
+    font-family: "merriweather";
+}
+.top-div{
+    background: linear-gradient(to top, black,rgb(5, 47, 63), rgb(5, 47, 63));
+}
+#title1{
+    padding-top: 50px;  
+    color: transparent;
+    font-size: 60px;
+    font-family: "sacramento";
+    background: linear-gradient(to right, rgb(19, 54, 66), rgb(19, 54, 66),skyblue, white);
+    -webkit-background-clip: text; 
+}
+#title2{
+    color: transparent;
+    font-size: 45px;
+    font-family: "Monserratt";  
+    background: linear-gradient(to right, rgb(19, 54, 66), rgb(19, 54, 66),skyblue, white);
+    -webkit-background-clip: text; 
+}
+#cloud1{
+    position: absolute  ;
+    margin: auto;
+    animation: moveInRight 2s ease-out;
+    
+}
+#cloud2{
+    position: absolute;
+    margin: auto;
+    animation: moveInLeft 2s ease-out;  
+}
+@keyframes moveInRight {
+    0% {
+        opacity: 5;
+        transform: translateX(20rem);
+    }
+    100% {
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+@keyframes moveInLeft {
+    0% {
+        opacity: 5;
+        transform: translateX(-20rem);
+    }
+    100% {
+        opacity: 5;
+        transform: translateX(0);
+
+    }
+}
+#mountain{
+    margin-bottom: 0px;
+}
+.mid-div{
+    padding: 60px;
+}
+.paragraph{
+    line-height: 30px;
+    color: #041b2d;
+}
+#profile-img{
+    border-radius: 50%;
+    width: 10%;
+    height: 90px;
+}
+#txt-hello{
+    color: transparent;
+    font-size: 35px;
+    font-family: "Monserratt";
+    background: linear-gradient(to right, rgb(19, 54, 66), rgb(19, 54, 66),skyblue, white);
+    -webkit-background-clip: text;   
+}
+#txt-skills{
+    margin-right: 35px;;
+    text-align: center;
+    color: transparent;
+    font-size: 35px;
+    font-family: "Monserratt";
+    background: linear-gradient(to right, rgb(19, 54, 66), rgb(19, 54, 66),skyblue, white);
+    -webkit-background-clip: text;
+}
+#img1{
+    position: absolute;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    padding-left: 80px;
+    padding-top: -50px;
+}
+.skills-div{
+    text-indent: 80px;
+    text-align: justify;
+    padding-left: 170px;
+    padding-right: 170px;   
+}
+.math-div{
+    text-align: justify;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+#mathe{
+    text-indent: 600px;
+}
+#img2{
+    position: absolute;
+    width: 85px;
+    height: 80px;
+    padding-left: 650px;
+    padding-top: 110px;
+    
+}
+.bottom-div{
+    padding: 80px;
+    padding-top: 20px;
+}
+#txt-getintouch{
+    color: transparent;
+    font-family: "Monserratt";
+    font-size: 60px;
+    background: linear-gradient(to right, rgb(19, 54, 66), rgb(19, 54, 66),skyblue, white);
+    -webkit-background-clip: text;
+
+}
+#txt-title2{
+    color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(19, 54, 66), rgb(19, 54, 66),skyblue, white);
+    -webkit-background-clip: text;
+}
+.paragraph4{
+    color: #041b2d ;
+    padding-bottom: 50px;
+}
+.pgraph{
+    line-height: 30px;
+    color: #041b2d ;
+}
+#button{
+    font-family: "Monserratt";
+    size: 100px;
+    color: white;
+    background-color: rgb(5, 47, 63);
+}
+#button:hover{
+    background-color: #7BD5F5;
+}
+.social{
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 20px;
+    color: #7BD5F5;
+}
+footer{
+    background: linear-gradient(to top, black,rgb(5, 47, 63), rgb(5, 47, 63));
+    padding: 45px;
+}
+#txt-footer{
+    font-size: 40px;
+}
