@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/background4.jpg);
+    border: solid green 0.1px;
+    padding-bottom: 150px;
+}
+.middle-div{
+    border: solid green 1px;
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 80px;
+    background: linear-gradient(to right, grey,rgb(193, 238, 193));
+    padding-bottom: 30px;
+    text-align: center;
+}
+@font-face {
+    src: url(../fonts/Bamboo\ Brisk.otf);
+    font-family: bamboo;
+}
+.middle-div .about-container h1{
+    font-family: bamboo;
+    font-weight: 20px;
+    font-size: 82px;
+    line-height: 50px;
+}
+.middle-div .about-container p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 180px auto;
+    margin-top: 1px;
+    
+}
+.Get-in{
+    margin-top: 30px;
+}
+.Get-in h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 52px;
+    font-family: sans-serif;
+    color: green;
+}
+.Get-in h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: green;
+}
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(500px - 30px);
+    background: rgb(77, 230, 84);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon1 .fab{
+    color: #3B5998;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+}
+.container .box .icon2 .fab{
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    background: linear-gradient(to right,#FFDC80,#FCAF45,#F77737,#F56040,#FD1D1D,#E1306C,#C13584,#833AB4,#5851D8,#405DE6) ;
+    -webkit-background-clip: text;
+}
+.container .box .icon3 .fab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: rgb(89, 198, 241);
+}
+.container .box .content{
+    position: absolute;
+    right: 95px;
+    top: 100px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container .box .content h3{
+   
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 30px;
+}
+.container .box .content p{
+    margin: 0;
+    padding: 0;
+    color: rgb(5, 5, 5);
+}
+.container .box:nth-child(1) {
+    background: linear-gradient(to right,rgb(7, 114, 7),rgb(14, 219, 14)) ;
+    border: solid rgb(32, 241, 32) 1px;
+}
+.container .box:nth-child(2) {
+    background: linear-gradient(to right,rgb(7, 114, 7),rgb(14, 219, 14)) ;
+    border: solid rgb(32, 241, 32) 1px;
+}
+.container .box:nth-child(3){
+    background: linear-gradient(to right,rgb(7, 114, 7),rgb(14, 219, 14)) ;
+    border: solid rgb(32, 241, 32) 1px;
+}
+.social2{
+    text-decoration: none;
+}
+  

@@ -1,0 +1,120 @@
+
+body{
+    color: black;
+    
+}
+.div-marin{
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+#img-marin{
+    margin-left: 80px;
+    margin-right: 20px;
+    float: left;
+    height: 390px;
+    width: 550px;
+    border: solid black 2px;
+    padding: 2px;
+}
+#marin-title{
+    text-decoration: none;
+}
+.marin-paragraph{
+    line-height: 22px;  
+
+}
+.div-ninoy{
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+.img-ninoy{
+    margin-right: 100px;
+    float: right;
+    height: 370px;
+    width: 550px;
+    border: solid black 2px;
+    padding: 2px;
+}
+#ninoy-title{
+    text-decoration: none;
+}
+#paragraph-ninoy{
+    line-height: 22px;  
+}
+.img-cave{
+
+    margin-left: 80px;
+    margin-right: 20px;
+    float: left;
+    height: 435px;
+    width: 550px;
+    border: solid black 2px;
+    padding: 2px;
+}
+#cave-title{
+    text-decoration: none;
+}
+#paragraph-bagumbungan{
+    line-height: 22px; 
+}
+.div-cave{
+    margin-bottom: 70px;
+}
+.img-manila-zoo{
+    margin-left: 15px;
+    margin-right: 100px;
+    float: right;
+    height: 380px;
+    width: 550px;
+    border: solid black 2px;
+    padding: 2px;
+}
+#manilazoo-title{
+    text-decoration: none;
+}
+#paragraph-manila{
+    line-height: 22px;
+}
+.div-manila{
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+.img-lamesa{
+    margin-left: 80px;
+    margin-right: 20px;
+    float: left;
+    height: 500px;
+    width: 550px;
+    border: solid black 2px;
+    padding: 2px;
+}
+#lamesa-title{
+    text-decoration: none;
+}
+#paragraph-lamesa{
+    line-height: 22px;
+}
+.div-lamesa{
+    margin-bottom: 80px;
+}
+.reviews{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+.images{
+    margin-left: 0px;
+    height: 180px;
+    width: 160px;
+    border: solid black 2px;
+    padding: 2px;
+}
+.images-container{
+    padding: 20px 20px;
+}
+.images-container img:hover{
+    filter: grayscale(0%);
+    transform: scale(2);
+}
+

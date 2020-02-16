@@ -1,0 +1,121 @@
+@font-face {
+    src: url(../fonts/Bamboo\ Brisk.otf);
+    font-family: bamboo;
+}
+.top{
+    background-color: rgb(73, 73, 73);
+    margin: 0;
+    padding: 0px;
+    
+}
+
+.info{
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.media{
+    padding-left: 1125px;
+}
+
+.info-items{
+    
+    font-size: 10px;
+    padding-right: 5px;
+    color: #fff;
+    
+}
+li{
+    position: relative;
+    bottom: 10px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+}
+.home-navigation{
+    padding: 10px 100px;
+    text-align: right;
+    margin: 0;
+    background-color: transparent;
+}
+#home-logo{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    right: 750px;
+    top: 20px;
+}
+nav{
+    padding: 10px 100px;
+    text-align: right;
+    margin: 0;
+    background-color: green;
+}
+.nav-item{
+    position: relative;
+    bottom: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-left: 30px;
+    color: rgb(22, 204, 37);
+    text-decoration: none;
+}
+.nav-items{
+    position: relative;
+    bottom: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.nav-items:hover{
+    color: rgb(22, 204, 37);
+    
+}
+#logo{
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    right: 770px;
+}
+.title{
+    font-size: 200%;
+    position: absolute;
+    color: #fff;
+    right: 920px;
+    bottom: 493px;
+    font-family: bamboo;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    padding: 5px 5px;
+}
+.footer-items{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+h4{
+    font-size: 30px;
+    color: #fff;
+    font-family: bamboo;
+}
+#logo-footer{
+  
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
